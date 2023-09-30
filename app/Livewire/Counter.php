@@ -28,4 +28,9 @@ class Counter extends Component
     {
         $this->counter ++;
     }
+
+    public function refresh()
+    {
+        $this->counter = 0;
+    }
 }
