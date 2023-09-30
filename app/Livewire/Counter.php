@@ -31,6 +31,6 @@ class Counter extends Component
 
     public function refresh()
     {
-        $this->counter = 0;
+        $this->reset('firstName', 'secondName');
     }
 }
